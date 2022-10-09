@@ -5,14 +5,15 @@
 # Also, we are going to prompt the user to enter their email, password, content of their amil, Subject, as well as their recipient
 # In this script, we have included images
 
+import os
 from smtplib import SMTP_SSL
 from email.message import EmailMessage
 import imghdr
 
 server = SMTP_SSL("smtp.gmail.com", 465)
 
-User_email =(input("Enter your email address: ")).lower()
-User_password = input("Enter your email password: ")
+User_email = os.environ.get('GMAIL_ADDRESS')
+User_password = os.environ.get('GMAIL_PASSWORD')
 Recipient_email =(input("Enter recipient email address: ")).lower()
 Email_subject = (input("Enter the subject of your mail: ")).title()
 Sender_Name =(input("Enter your fullname: ")).title()
