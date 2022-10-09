@@ -53,7 +53,7 @@ GMAIL_PASSWORD=’passwordgenerated’
 
 Note: Remember to enclose the email address and password in a single quote.
 
-### Running prokect on local device
+### Running project on local device
 
 - Fork the repo
 
