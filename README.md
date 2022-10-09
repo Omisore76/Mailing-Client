@@ -22,6 +22,8 @@ myaccount.google.com/apppasswords
 
 - Click **Select app** and choose `mail`. Click **Select device** and choose `other`. Give the device any name of your choice, e.g., Python_Email_Authentication.
 
+![app!](Images/python_002.png)
+
 - Finally, click Generate. Copy and save the password generated, as it will be used to authenticate your Gmail address.
 
 ### Environment variables
@@ -69,6 +71,8 @@ Note: Remember to enclose the email address and password in a single quote.
 ```
 	pip install -r requirements.txt
 ```
+![requiremnt!](Images/python_001.png)
+
 - Run the app
 ```
 	python3 Mailing_Client4.py
@@ -80,6 +84,11 @@ Note: Remember to enclose the email address and password in a single quote.
 deactivate
 ```
 
+## Note
+
+Remember to delete the images attached in this repo if you don’t need them. Also, feel free to copy some images into the project directory if you would like to attach some images to your mail. Remember to edit the source code to include the images when you attach new images to this project. 
+
+Also, feel free to edit the code to suit your needs.
 
 
 
